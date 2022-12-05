@@ -17,7 +17,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 #### *- Data pre-processing*
 #### *- Data visualization*
 #### *- Modeling*
-#### *- Flask Predict API*
+#### *- Flask  API*
 
 The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.
 
