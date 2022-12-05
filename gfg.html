@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SEOUL BIKE SHARING DEMAND</title>
+    </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Temperature(C): <input type="number" name="temperature", placeholder="Enter the temperature in Celsius" required/>
+            <br><br>
+            Humidity(%): <input type="number" name="humidity", placeholder="Enter the humidity in %" required/>
+            <br><br>
+            Wind speed (m/s): <input type="number" name="wind_speed", placeholder="Enter the wind speed in m/s" required/>
+            <br><br>
+            Snowfall (cm): <input type="number" name="snowfall", placeholder="Enter the snowfall in cm" required/>
+            <br><br>
+            Dew Point Temperature: <input type="number" name="dew_point_temp", placeholder="Enter the dew point temp in (C)" required/>
+            <br><br>
+            Visibility: <input type="number" name="visibility", placeholder="Enter the visibility" required/>
+            <br><br>
+            Solar Radiation (MJ/m2): <input type="number" name="solar_radiation", placeholder="Enter the solar radiation (MJ/m2)" required/>
+            <br><br>
+            Rainfall (mm): <input type="number" name="rainfall", placeholder="Enter the rainfall" required/>
+            <br><br>
+            Seasons: <input type="number" name="seasons", placeholder="Enter the season" required/>
+            <br><br>
+            Holiday: <input type="number" name="holiday", placeholder="Holiday ? (yes/no)" required/>
+            <br><br>
+            Year: <input type="number" name="year", placeholder="Functioning day ? (yes/no)" required/>
+            <br><br>
+            Weekday: <input type="number" name="weekday", placeholder="Functioning day ? (yes/no)" required/>
+            <br><br>
+            
+            <button>Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }} Bikes</p>
+    </body>
+</html>
